@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "399850328830",
+    "project_id": "mynotes-tim-ahn",
+    "storage_bucket": "mynotes-tim-ahn.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:399850328830:android:b577656e420266c95a4baf",
+        "android_client_info": {
+          "package_name": "local.tim.mynotes"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAv5U1lge7KSEE7qKpcj2KOYRCH6W8Z0Yw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
