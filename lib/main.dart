@@ -30,11 +30,11 @@ class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return FutureBuilder(
-      future: AuthSerivce.firebase().initialize(),
+      future: AuthService.firebase().initialize(),
       builder: (context, snapshot) {
         switch (snapshot.connectionState) {
           case ConnectionState.done:
-            final user = AuthSerivce.firebase().currentUser;
+            final user = AuthService.firebase().currentUser;
             if (user == null) {
               return const LoginView();
             }
